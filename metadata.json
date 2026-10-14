@@ -1,0 +1,6 @@
+{
+  "name": "NotiCapture",
+  "description": "Captura e organiza o histórico de notificações do seu celular por data e aplicativo com busca e filtros.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">NotiCapture</string>
+    <string name="notification_listener_service_name">Capturador de Notificações NotiCapture</string>
+    
+    <!-- Navigation & Tabs -->
+    <string name="tab_timeline">Por Data</string>
+    <string name="tab_apps">Por Aplicativo</string>
+    <string name="tab_bookmarks">Favoritos</string>
+    <string name="tab_stats">Estatísticas</string>
+    
+    <!-- Permission Banner -->
+    <string name="permission_required_title">Acesso a Notificações Necessário</string>
+    <string name="permission_required_desc">Para capturar e salvar suas notificações em tempo real, o NotiCapture precisa de autorização no sistema Android.</string>
+    <string name="btn_enable_access">Ativar Acesso nas Configurações</string>
+    <string name="permission_granted_badge">Captura Ativa</string>
+    <string name="permission_missing_badge">Acesso Pendente</string>
+    <string name="permission_check_button">Verificar Novamente</string>
+    
+    <!-- Actions -->
+    <string name="search_placeholder">Buscar por título, texto ou app...</string>
+    <string name="btn_test_notification">Enviar Notificação de Teste</string>
+    <string name="btn_seed_sample_data">Carregar Exemplos</string>
+    <string name="btn_clear_all">Limpar Histórico</string>
+    <string name="confirm_clear_title">Limpar todas as notificações?</string>
+    <string name="confirm_clear_desc">Esta ação apagará todo o histórico de notificações capturadas até o momento.</string>
+    <string name="btn_confirm">Confirmar</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="btn_delete">Excluir</string>
+    <string name="btn_copy">Copiar Texto</string>
+    <string name="btn_open_app">Abrir Aplicativo</string>
+    <string name="text_copied">Texto copiado para a área de transferência!</string>
+    
+    <!-- Filters -->
+    <string name="filter_all">Todos</string>
+    <string name="filter_today">Hoje</string>
+    <string name="filter_yesterday">Ontem</string>
+    <string name="filter_week">Últimos 7 dias</string>
+    
+    <!-- Empty states -->
+    <string name="empty_timeline_title">Nenhuma notificação capturada</string>
+    <string name="empty_timeline_desc">Quando você receber notificações em outros aplicativos, elas aparecerão organizadas aqui automaticamente.</string>
+    <string name="empty_search_title">Nenhum resultado encontrado</string>
+    <string name="empty_search_desc">Tente outros termos para pesquisar no histórico.</string>
+    <string name="empty_bookmarks_title">Nenhum favorito ainda</string>
+    <string name="empty_bookmarks_desc">Marque com estrela notificações importantes para encontrá-las rapidamente aqui.</string>
+    <string name="empty_apps_title">Nenhum aplicativo registrado</string>
+    <string name="empty_apps_desc">Os aplicativos que gerarem notificações serão listados aqui com contadores individuais.</string>
+</resources>
