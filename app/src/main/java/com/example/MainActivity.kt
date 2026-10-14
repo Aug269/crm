@@ -8,6 +8,7 @@ import androidx.activity.viewModels
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
+import com.example.service.NotificationCollectorService
 import com.example.ui.screens.HomeScreen
 import com.example.ui.theme.MyApplicationTheme
 import com.example.ui.viewmodel.NotificationViewModel
@@ -19,6 +20,8 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
+        NotificationCollectorService.requestRebindIfPossible(this)
+
         setContent {
             MyApplicationTheme {
                 Surface(modifier = Modifier.fillMaxSize()) {
@@ -32,5 +35,6 @@ class MainActivity : ComponentActivity() {
         super.onResume()
         // Re-check notification listener permission whenever user comes back from system settings
         viewModel.checkPermission()
+        NotificationCollectorService.requestRebindIfPossible(this)
     }
 }
